@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f4f0; /* Tom pastel de marrom claro */
+    color: #6c4f3d; /* Tom pastel de marrom escuro */
+    /*margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+}
+
+h1 {
+    color: #f5a623; /* Tom pastel de laranja */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff5e1; /* Tom pastel de laranja claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d5b69c; /* Tom pastel de marrom claro */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f5a623; /* Tom pastel de laranja */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 10px; /* Tamanho reduzido */
+    font-size: 14px; /* Tamanho da fonte reduzido */
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #e4931b; /* Tom pastel de laranja escuro */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Para posicionar os botões corretamente */
+}
+
+.highlight {
+    background-color: #f8c4c4; /* Tom pastel de rosa */
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #d5b69c; /* Tom pastel de marrom claro */
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo específico para o botão de editar */
+button.edit-button {
+    background-color: #ffcccb; /* Tom pastel de rosa claro */
+    color: #fff;
+    padding: 5px 8px; /* Tamanho reduzido */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+button.edit-button:hover {
+    background-color: #ff9999; /* Tom pastel de rosa mais escuro */
+}
+
+/* Estilo específico para o botão de deletar */
+button.delete-button {
+    background-color: #ff6f6f; /* Tom pastel de vermelho */
+    color: #fff;
+    padding: 5px 8px; /* Tamanho reduzido */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+button.delete-button:hover {
+    background-color: #ff4c4c; /* Tom pastel de vermelho mais escuro */
+}
+
+/* Adiciona um container para os botões para alinhamento adequado */
+li .button-container {
+    display: flex;
+    gap: 5px; /* Espaçamento entre os botões */
+    position: absolute;
+    right: 10px; /* Alinha os botões à direita do item da lista */
+}
